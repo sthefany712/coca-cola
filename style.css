@@ -8,6 +8,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #CF2425;
 }
 
 header, footer {
@@ -25,8 +26,9 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #DA6062;
+    background-color
 }
+
 header {
     height: 100px;
     display: flex;
@@ -56,6 +58,7 @@ main {
     right: 0;
     bottom: 0;
     z-index: -1;
+    background-color:
 }
 
 .content-text {
@@ -64,7 +67,7 @@ main {
     font-size: 2.5rem;
     width: 240px;
     transform: translateX(-100%);
-    text-align: end;
+    text-align: start;
 }
 
 .content-image {
