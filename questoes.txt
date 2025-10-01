@@ -1,8 +1,8 @@
 1- O que é um repositório no Git e qual a sua importância?
 
-É onde um local online onde armazenamos nossos códigos, arquivos e 
-o histórico de revisão de cada arquivo, ele também funciona como um portfólio
-dos nossos projetos, pode ter vários colaboradores e nos dar a facilidade em
+É um local online onde armazenamos nossos códigos, arquivos e 
+o histórico de revisão de cada arquivo, além de servir como um portfólio
+dos projetos. Ele também pode ter vários colaboradores e nos dar a facilidade de
 acessar o projeto que estiver dentro do repositório de qualquer lugar.
 
 2- Qual a função do Git Bash?
@@ -22,28 +22,32 @@ a área de staging.
 
 O ponto representa o diretótio atual. Este comando adiciona todos os arquivos novos 
 e modificados que estão no diretório atual e em todos os seus subdiretórios à àrea de
-preparação. Um bom aliado para agilizar o processo quando você tiver certeza de que todas
-as alterações feitas no seu direótio atual são relevantes para o próximo commit.
+preparação, o que o torna um bom aliado para agilizar o processo quando você tiver certeza
+de que todas as alterações feitas no seu direótio atual são relevantes para o próximo commit.
 
 
 5- Explique o comando git commit e por que é importante criar uma mensagem descritiva.
-Qual a função do comando git push?
 
-O git commit nada mais é do que um comentário sobre o estado do seu projeto. Nele é salva as 
+O git commit nada mais é do que um comentário sobre o estado atual do seu projeto. Nele é salva as 
 alterações que foram preparadas (git add) no histórico do repositório Git. 
 Cada commit é uma versão "segura" e permanente das suas mudanças, identificada por metadados
 como autor, data e uma mensagem descritiva que explica o que foi feito. 
 A mensagem precisa ser descritiva para facilitar o rastreamento do projeto, a interação com outras
-pessoas e quandp necessário a reversão para versões anteriores.
+pessoas e quando necessário a reversão para versões anteriores.
 
-6- Qual a importância de criar commits frequentes durante o desenvolvimento de um projeto?
+6- Qual a função do comando git push?
 
-é importante pois facilita o registro e a organização do histórico do projeto, permitindo que
+Ele transfere as confirmações (commits) de um branch local para o mesmo branch em um repositório remoto,
+atualizando-o com seu trabalho mais recente.
+
+7- Qual a importância de criar commits frequentes durante o desenvolvimento de um projeto?
+
+É importante pois facilita o registro e a organização do histórico do projeto, permitindo que
 você e sua equipe entendam as mudanças ao longo do tempo. Isso melhora a rastreabilidade de problemas,
 simplifica a comunicação e colaboração, e permite a criação de backups eficientes do trabalho realizado,
 garantindo que todo o progresso não seja perdido em caso de falhas.
 
-7- Explique a função das tags HTML e como elas estruturam uma página.
+8- Explique a função das tags HTML e como elas estruturam uma página.
 
 As tags HTML funcionam como instruções que dizem ao navegador como estruturar o conteúdo de uma página da
 web, definindo títulos, parágrafos, imagens, links e outros elementos visuais e interativos.
@@ -51,12 +55,12 @@ As tags definem a organização do conteúdo na página, como onde um título co
 é inserido. Tags como <a> (links) e <form> (formulários) permitem a interação do usuário com a página.
 Já a tag <h1> indica um título de nível 1, enquanto <img> insere uma imagem, por exemplo.  
 
-8- O que são atributos em uma tag HTML e qual a sua função?
+9- O que são atributos em uma tag HTML e qual a sua função?
 
-As tags podem ter atributos, que são valores que fornecem informações adicionais sobre a tag, como o atributo
+São valores que fornecem informações adicionais sobre a tag, como o atributo
 href na tag <a> para especificar o destino do link, ou src na tag <img> para o caminho da imagem.
 
-9- O que é o Emmet e como ele facilita o desenvolvimento de páginas HTML?
+10- O que é o Emmet e como ele facilita o desenvolvimento de páginas HTML?
 
 É uma ferramenta que acelera drasticamente a escrita de código HTML e CSS em um editor de texto, permitindo gerar
 estruturas complexas e textos de preencimento a partir de abreviações curtas, semelhantes aos seletores CSS.
@@ -66,19 +70,19 @@ o trabalho de escrever cada tag manualmente.
 Em suma, o Emmet permite escrever grandes blocos de código em poucas linhas de abreviação, o que aumenta a velocidade de
 desenvolvimento e permite que o desenvolvedor se concentre em tarefas mais importantes.
 
-10- O que é o box-sizing no CSS e por que usamos ele no reset inicial?
+11- O que é o box-sizing no CSS e por que usamos ele no reset inicial?
 
 Determina se a largura e a altura de um elemento incluem ou não o preenchimento (padding) e a borda.
 Usamos ele desde o reset para padronizar o cálculo de dimensões de elementos, garantindo que o padding e a borda sejam incluídos
 na largura e altura totais definidas, tornando o desenvolvimento mais prevísivel e simplificando layouts reponsivos ao evitar que
 os elementos "estourem" o tamanho previsto.
 
-11- Por que é importante utilizar tags semânticas no HTML?
+12- Por que é importante utilizar tags semânticas no HTML?
 
 Para criar sites acessíveis, melhor compreendidos por mecanismos de busca (SEO), mais fáceis de manter e atualizar, e que ofereçam 
 uma melhor experência para usuários com leitores de tela.
 
-12- O que são media queries no CSS e qual a sua função?
+13- O que são media queries no CSS e qual a sua função?
 
 São um recurso do CSS3 que permite a um site adaptar seu layout e estilo com base nas características do dispositivo do usuário, como 
 tamanho da tela, orientação e resolução. Elas funcionam utilizando a regra @media e são essenciais para o design responsivo, garantindo
@@ -103,10 +107,10 @@ A principal diferença é que justify-content alinhará os itens horizontalmente
 16- Como o flex-grow funciona e qual o seu propósito no layout Flexbox?
 
 Ele define o "quanto" um item flexível deve crescer para preencher o espaço extra disponível dentro de seu contêiner.
-Seu propósito é permitir layouts flexíveis e reposnivos, onde itens podem se expandir proporcionalmente em relação aos outros quando há espaço 
-extra, garantindo o preenchimento do contêiner. 
+Seu propósito é permitir layouts flexíveis e reposnivos, onde itens podem se expandir proporcionalmente em relação aos
+outros quando há espaço extra, garantindo o preenchimento do contêiner. 
 
 17- Explique a diferença entre flex-direction: column; e flex-direction: row;.
 
-Flex-direction: row; alinha os itens horizontalmente, da esquerda para a direita por padrão, como palavras em uma linha.
-Já flex-direction: column; empilha os itens verticalmente, um embaixo do outro, de cima para baixo.
+Flex-direction: column; empilha os itens verticalmente, um embaixo do outro, de cima para baixo.
+Já o flex-direction: row; alinha os itens horizontalmente, da esquerda para a direita por padrão, como palavras em uma linha.
